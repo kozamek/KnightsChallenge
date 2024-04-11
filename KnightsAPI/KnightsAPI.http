@@ -1,0 +1,6 @@
+@KnightsAPI_HostAddress = http://localhost:5270
+
+GET {{KnightsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
