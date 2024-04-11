@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\KnightsChallenge\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\knightschallenge\\knightsapi\\data\\knightscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\data\\knightscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\knightschallenge\\knightsapi\\data\\iknightscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\data\\iknightscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\knightschallenge\\knightsapi\\entities\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\entities\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\knightschallenge\\knightsapi\\entities\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\entities\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\knightschallenge\\knightsapi\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\entities\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Attribute.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Entities\\Attribute.cs",
-              "RelativeDocumentMoniker": "KnightsAPI\\Entities\\Attribute.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Entities\\Attribute.cs",
-              "RelativeToolTip": "KnightsAPI\\Entities\\Attribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:23:09.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Knight.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Entities\\Knight.cs",
-              "RelativeDocumentMoniker": "KnightsAPI\\Entities\\Knight.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Entities\\Knight.cs",
-              "RelativeToolTip": "KnightsAPI\\Entities\\Knight.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:23:28.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Entities\\Weapon.cs",
-              "RelativeDocumentMoniker": "KnightsAPI\\Entities\\Weapon.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Entities\\Weapon.cs",
-              "RelativeToolTip": "KnightsAPI\\Entities\\Weapon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:23:15.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IKnightsContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Data\\IKnightsContext.cs",
-              "RelativeDocumentMoniker": "KnightsAPI\\Data\\IKnightsContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Data\\IKnightsContext.cs",
-              "RelativeToolTip": "KnightsAPI\\Data\\IKnightsContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:25:11.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KnightsContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Data\\KnightsContext.cs",
-              "RelativeDocumentMoniker": "KnightsAPI\\Data\\KnightsContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\Data\\KnightsContext.cs",
-              "RelativeToolTip": "KnightsAPI\\Data\\KnightsContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:17:36.888Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
