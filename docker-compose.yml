@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  knightschallengedb:
+    image: mongo
+
+  knightsapi:
+    image: ${DOCKER_REGISTRY-}knightsapi
+    build:
+      context: .
+      dockerfile: KnightsAPI/Dockerfile
+
+volumes:
+  mongo_data:

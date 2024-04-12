@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OLQzrjrBMfpNTlyQTaoWRXRqhjiMu3CjVVlZhjCmwVOL6BiB3lNoFYg3EUl7xykGVmw90HP6WSi5503jwnHziA==",
+  "dgSpecHash": "0gm6KawrRsrUf1Lmvk4KmYb/DihCle/wDH19QUbXRhRWBT9NPuTMJwNFBD+GQEe8Q1zEIOD0+m4eL5b//bdfQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\KnightsAPI.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mongodb.bson\\2.24.0\\mongodb.bson.2.24.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mongodb.driver\\2.24.0\\mongodb.driver.2.24.0.nupkg.sha512",

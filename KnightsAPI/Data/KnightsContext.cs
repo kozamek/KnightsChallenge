@@ -14,6 +14,8 @@ namespace KnightsAPI.Data
             var database = client.GetDatabase(configuration.GetValue<string>("DatabaseSettings:DatabaseName"));
 
             Knights = database.GetCollection<Knight>(configuration.GetValue<string>("DatabaseSettings:CollectionName"));
+
+            KnightsSeed.SeedData(Knights);
         }
     }
 }

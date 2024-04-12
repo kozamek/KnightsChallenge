@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  knightschallengedb:
+    container_name: KnightsChallengeDb
+    restart: always
+    ports: 
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  knightsapi:
+    container_name: KnightsAPI
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - "DatabaseSettings__ConnectionString=mongodb://KnightsChallengeDb:27017"
+    depends_on:
+      - knightschallengedb
+    ports:
+      - "8080"

@@ -10,7 +10,7 @@ namespace KnightsAPI.Entities
         public string Nickname { get; set; }
         public string Birthday { get; set; }
         public List<Weapon> Weapons { get; set; }
-        public Attribute Attributes { get; set; }
+        public Attributes Attributes { get; set; }
         public string KeyAttribute { get; set; }
         public bool Hero  { get; set; }
     }

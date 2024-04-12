@@ -29,7 +29,7 @@ namespace KnightsAPI.Controllers
             return Ok(heroes);
         }
 
-        [HttpGet("{id:length(24)}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<IEnumerable<Knight>>> GetKnight(string id)
         {
             var knigth = await _repository.GetKnight(id);
@@ -60,7 +60,7 @@ namespace KnightsAPI.Controllers
             return Ok(await _repository.UpdateKnight(knight));
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteKnight(string id)
         {
             return Ok(await _repository.DeleteKnight(id));
