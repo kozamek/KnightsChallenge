@@ -15,8 +15,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
-      - C:\Users\user\Desktop\KnightsChallenge\KnightsAPI:/app
-      - C:\Users\user\Desktop\KnightsChallenge:/src
+      - C:\Users\user\Desktop\Workspace\KnightsChallenge\KnightsAPI:/app
+      - C:\Users\user\Desktop\Workspace\KnightsChallenge:/src
       - C:\Users\user\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\user\.nuget\packages\:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro

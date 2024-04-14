@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0gm6KawrRsrUf1Lmvk4KmYb/DihCle/wDH19QUbXRhRWBT9NPuTMJwNFBD+GQEe8Q1zEIOD0+m4eL5b//bdfQg==",
+  "dgSpecHash": "SZzmc3TdJ+UwobGWLRMphyWe5LNXzzTBiRkf8NaJViYpx0nqw5VRHQm8Cdt0vs4PtlZErEym261mhx8XHAA08w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\KnightsAPI.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\KnightsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

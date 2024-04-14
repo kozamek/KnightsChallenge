@@ -1293,11 +1293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\KnightsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\KnightsAPI.csproj",
       "projectName": "KnightsAPI",
-      "projectPath": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\KnightsAPI.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\KnightsAPI.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\KnightsChallenge\\KnightsAPI\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

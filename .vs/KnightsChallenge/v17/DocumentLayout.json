@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\KnightsChallenge\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\homeview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\homeview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\editview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\editview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\infoview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\infoview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\deleteview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\deleteview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\createview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\createview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeView.vue",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\HomeView.vue",
+              "RelativeDocumentMoniker": "knightsweb\\src\\views\\HomeView.vue",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\HomeView.vue",
+              "RelativeToolTip": "knightsweb\\src\\views\\HomeView.vue",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwD8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-14T19:53:29.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfoView.vue",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\InfoView.vue",
+              "RelativeDocumentMoniker": "knightsweb\\src\\views\\InfoView.vue",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\InfoView.vue",
+              "RelativeToolTip": "knightsweb\\src\\views\\InfoView.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-14T19:53:45.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditView.vue",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\EditView.vue",
+              "RelativeDocumentMoniker": "knightsweb\\src\\views\\EditView.vue",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\EditView.vue",
+              "RelativeToolTip": "knightsweb\\src\\views\\EditView.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-14T19:51:04.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteView.vue",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\DeleteView.vue",
+              "RelativeDocumentMoniker": "knightsweb\\src\\views\\DeleteView.vue",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\DeleteView.vue",
+              "RelativeToolTip": "knightsweb\\src\\views\\DeleteView.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-14T19:49:54.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateView.vue",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\CreateView.vue",
+              "RelativeDocumentMoniker": "knightsweb\\src\\views\\CreateView.vue",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\CreateView.vue",
+              "RelativeToolTip": "knightsweb\\src\\views\\CreateView.vue",
+              "ViewState": "AQIAAG4BAAAAAAAAAAAAAL4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-04-14T18:58:52.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

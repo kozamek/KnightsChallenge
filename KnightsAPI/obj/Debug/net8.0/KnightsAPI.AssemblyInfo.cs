@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KnightsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8074370ee68cc5c5807a19be406b61bbd765aad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d067e4099e8a630edaa46cf9b88959a09a9f6485")]
 [assembly: System.Reflection.AssemblyProductAttribute("KnightsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KnightsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
