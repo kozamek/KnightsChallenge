@@ -18,3 +18,8 @@
 ### 🖥️ Funcionamento do Front End
  
 <img width="800" alt="image" height="400" src=Video.gif/>
+
+### 🌈⃤  Requisitos para funcionamento
+ - Docker Desktop
+ - Visual Studio 2022
+ - Clone o repositório, abra-o pelo Visual Studio e execute a aplicação.
