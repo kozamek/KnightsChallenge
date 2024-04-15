@@ -24,20 +24,21 @@
             </div>
             <div>{{ calculateXPValue(item.birthday) }}</div>
             <div class="item-list-icon-buttons-container">
-                <IconButton :id="`info-button-${item._id}`"
+                <IconButton :id="`info-button-${item.id}`"
                             icon="eye"
-                            helper="Ver informações do cavalheiro"
+                            helper="See Knight's info'"
                             :on-click="() => redirectToInfo(item)" />
 
-                <IconButton :id="`edit-button-${item._id}`"
+                <IconButton v-if="item.hero === false"
+                            :id="`edit-button-${item.id}`"
                             icon="pen-to-square"
-                            helper="Editar cavalheiro"
+                            helper="Edit Knight"
                             :on-click="() => redirectToEdit(item)" />
 
-                <IconButton v-if="item.isHero === false"
-                            :id="`delete-button-${item._id}`"
+                <IconButton v-if="item.hero === false"
+                            :id="`delete-button-${item.id}`"
                             icon="trash"
-                            helper="Deletar cavalheiro"
+                            helper="Delete Knight"
                             :on-click="() => redirectToDelete(item)" />
             </div>
         </li>
@@ -67,7 +68,9 @@ export default {
       return new Date(date).toLocaleDateString();
     },
     calculateAge(birthday) {
-      const birthDate = new Date(birthday);
+      const [day, month, year] = birthday.split('/');
+      const formattedBirthday = `${year}-${month}-${day}`;
+      const birthDate = new Date(formattedBirthday);
       const today = new Date();
       let age = today.getFullYear() - birthDate.getFullYear();
       const monthDiff = today.getMonth() - birthDate.getMonth();
@@ -109,21 +112,21 @@ export default {
     redirectToDelete(item) {
       this.$router.push({
         name: "delete",
-        params: { id: item._id, name: item.name },
+        params: { id: item.id, name: item.name },
         key: "$route.fullPath",
       });
     },
     redirectToInfo(item) {
       this.$router.push({
         name: "info",
-        params: { id: item._id },
+        params: { id: item.id },
         key: "$route.fullPath",
       });
     },
     redirectToEdit(item) {
       this.$router.push({
         name: "edit",
-        params: { id: item._id, name: item.name },
+        params: { id: item.id, name: item.name },
         key: "$route.fullPath",
       });
     },

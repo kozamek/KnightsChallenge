@@ -2,7 +2,7 @@
   <div class="update-main-container">
     <BackButton />
     <h1 class="update-main-title">
-      Atualizar cavalheiro
+      Update Knight
     </h1>
     <div class="update-dialog-box">
       <h1 class="update-dialog-box-text">
@@ -10,7 +10,7 @@
       </h1>
       <input
         v-model="newNickname"
-        placeholder="New nickname"
+        placeholder="New name"
       />
       <div class="update-dialog-box-buttons">
         <CustomButton
@@ -30,7 +30,8 @@
 <script>
 import BackButton from "../components/BackButton.vue";
 import CustomButton from "../components/CustomButton.vue";
-import {useToast} from 'vue-toast-notification';
+import { useToast } from 'vue-toast-notification';
+import { updateKnight } from "../api/knights.api";
 
 const $toast = useToast();
 
@@ -65,7 +66,7 @@ export default {
         return;
       }
       await updateKnight(this.currentId,this.newNickname);
-      $toast.open({message: 'Nickname updated',duration: 2000,position: 'top-right'});
+      $toast.open({message: 'Knight name updated',duration: 2000,position: 'top-right'});
       this.redirectToHome()
       
     },
@@ -119,5 +120,6 @@ export default {
   font-size: 54px;
   margin: 16px 0;
   margin-bottom: auto;
+  color: #fff8e5;
 }
 </style>

@@ -48,16 +48,16 @@ namespace KnightsAPI.Controllers
 
             await _repository.CreateKnight(knight);
 
-            return CreatedAtRoute("GetKnight", new { id = knight.Id }, knight);
+            return Ok();
         }
 
-        [HttpPut]
-        public async Task<IActionResult> UpdateKnight([FromBody] Knight knight)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateKnight(string id, [FromBody] string newName)
         {
-            if (knight is null)
+            if (newName is null)
                 return BadRequest("Invalid knight");
 
-            return Ok(await _repository.UpdateKnight(knight));
+            return Ok(await _repository.UpdateKnight(id, newName));
         }
 
         [HttpDelete("{id}")]

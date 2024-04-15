@@ -107,7 +107,7 @@
         </ul>
         <CustomButton
           label="Save Knight"
-          :on-click="creatNewKnight"
+          :on-click="createNewKnight"
         />
       </div>
       <div class="create-weapons-container">
@@ -188,7 +188,8 @@
 import BackButton from "../components/BackButton.vue";
 import CustomButton from "../components/CustomButton.vue";
 import WeaponCard from "../components/WeaponCard.vue";
-import {useToast} from 'vue-toast-notification';
+import { useToast } from 'vue-toast-notification';
+import { createKnight } from "../api/knights.api";
 
 const $toast = useToast();
 
@@ -240,12 +241,17 @@ export default {
         key: "$route.fullPath",
       });
     },
-    async creatNewKnight() {
+      async createNewKnight() {
       if(this.knightInfo.name === "" || this.knightInfo.keyAttribute === "" || this.knightInfo.birthday === ""){
         $toast.open({message: 'Empty fields', type: 'error' ,duration: 2000,position: 'top-right'});
         return;
       }
+      
+      this.knightInfo.hero = false;
+      this.knightInfo.id = Math.floor(Math.random() * 1000000).toString();
+
       await createKnight(this.knightInfo);
+
       $toast.open({message: 'Knight added',duration: 2000,position: 'top-right'});
       this.redirectToHome();
     },

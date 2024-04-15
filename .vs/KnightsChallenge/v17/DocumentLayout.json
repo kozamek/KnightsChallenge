@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\homeview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\homeview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\editview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\editview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\infoview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\infoview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsapi\\repositories\\knightsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\repositories\\knightsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\deleteview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\deleteview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsapi\\controllers\\knightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\controllers\\knightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\views\\createview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\views\\createview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsapi\\repositories\\iknightsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A53BA28F-3345-4375-B522-0DF13E817B7B}|KnightsAPI\\KnightsAPI.csproj|solutionrelative:knightsapi\\repositories\\iknightsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\api\\knights.api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\api\\knights.api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|c:\\users\\user\\desktop\\workspace\\knightschallenge\\knightsweb\\src\\api\\httpclient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}|KnightsWEB\\knightsweb.esproj|solutionrelative:knightsweb\\src\\api\\httpclient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeView.vue",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\HomeView.vue",
-              "RelativeDocumentMoniker": "knightsweb\\src\\views\\HomeView.vue",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\HomeView.vue",
-              "RelativeToolTip": "knightsweb\\src\\views\\HomeView.vue",
-              "ViewState": "AQIAABsAAAAAAAAAAAAuwD8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-14T19:53:29.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InfoView.vue",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\InfoView.vue",
-              "RelativeDocumentMoniker": "knightsweb\\src\\views\\InfoView.vue",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\InfoView.vue",
-              "RelativeToolTip": "knightsweb\\src\\views\\InfoView.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-14T19:53:45.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "EditView.vue",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\EditView.vue",
               "RelativeDocumentMoniker": "knightsweb\\src\\views\\EditView.vue",
               "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\EditView.vue",
               "RelativeToolTip": "knightsweb\\src\\views\\EditView.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-14T19:51:04.475Z",
+              "WhenOpened": "2024-04-15T18:00:16.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DeleteView.vue",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\DeleteView.vue",
-              "RelativeDocumentMoniker": "knightsweb\\src\\views\\DeleteView.vue",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\DeleteView.vue",
-              "RelativeToolTip": "knightsweb\\src\\views\\DeleteView.vue",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-14T19:49:54.691Z",
+              "Title": "IKnightsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\Repositories\\IKnightsRepository.cs",
+              "RelativeDocumentMoniker": "KnightsAPI\\Repositories\\IKnightsRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\Repositories\\IKnightsRepository.cs",
+              "RelativeToolTip": "KnightsAPI\\Repositories\\IKnightsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:59:41.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KnightsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\Controllers\\KnightsController.cs",
+              "RelativeDocumentMoniker": "KnightsAPI\\Controllers\\KnightsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\Controllers\\KnightsController.cs",
+              "RelativeToolTip": "KnightsAPI\\Controllers\\KnightsController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAuwDsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:03:00.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KnightsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\Repositories\\KnightsRepository.cs",
+              "RelativeDocumentMoniker": "KnightsAPI\\Repositories\\KnightsRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\KnightsAPI\\Repositories\\KnightsRepository.cs",
+              "RelativeToolTip": "KnightsAPI\\Repositories\\KnightsRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwDQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:05:42.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "httpClient.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\api\\httpClient.js",
+              "RelativeDocumentMoniker": "knightsweb\\src\\api\\httpClient.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\api\\httpClient.js",
+              "RelativeToolTip": "knightsweb\\src\\api\\httpClient.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-15T16:32:20.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CreateView.vue",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\CreateView.vue",
-              "RelativeDocumentMoniker": "knightsweb\\src\\views\\CreateView.vue",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\views\\CreateView.vue",
-              "RelativeToolTip": "knightsweb\\src\\views\\CreateView.vue",
-              "ViewState": "AQIAAG4BAAAAAAAAAAAAAL4AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
-              "WhenOpened": "2024-04-14T18:58:52.706Z",
+              "Title": "knights.api.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\api\\knights.api.js",
+              "RelativeDocumentMoniker": "knightsweb\\src\\api\\knights.api.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Workspace\\KnightsChallenge\\knightsweb\\src\\api\\knights.api.js",
+              "RelativeToolTip": "knightsweb\\src\\api\\knights.api.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-15T14:13:37.855Z",
               "EditorCaption": ""
             }
           ]

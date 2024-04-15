@@ -34,7 +34,7 @@
           </li>
           <li>
             <strong>Birthday:</strong>
-            <p>{{ formatDate(knightInfo.birthday) }}</p>
+            <p>{{ knightInfo.birthday }}</p>
           </li>
           <li>
             <strong>KeyAttribute:</strong>
@@ -67,6 +67,7 @@
 <script>
 import BackButton from "../components/BackButton.vue";
 import WeaponCard from "../components/WeaponCard.vue";
+import { getKnightById } from "../api/knights.api";
 
 export default {
   name: "InfoView",

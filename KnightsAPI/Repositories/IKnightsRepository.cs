@@ -8,7 +8,7 @@ namespace KnightsAPI.Repositories
         Task<IEnumerable<Knight>> GetKnights();
         Task<Knight> GetKnight(string id);
         Task CreateKnight(Knight knight);
-        Task<bool> UpdateKnight(Knight knight);
+        Task<bool> UpdateKnight(string id, string newName);
         Task<bool> DeleteKnight(string id);
     }
 }

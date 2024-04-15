@@ -1,16 +1,19 @@
-name: dockercompose1688047108739972838
+name: dockercompose8419547753240455307
 services:
   knightsapi:
     build:
-      context: C:\Users\user\Desktop\KnightsChallenge
+      context: C:\Users\user\Desktop\Workspace\KnightsChallenge
       dockerfile: KnightsAPI/Dockerfile
       args:
-        BUILD_CONFIGURATION: Debug
+        BUILD_CONFIGURATION: Release
       labels:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: KnightsAPI
-      target: base
-    container_name: KnightsAPI_1
+    container_name: KnightsAPI
+    depends_on:
+      knightschallengedb:
+        condition: service_started
+        required: true
     entrypoint:
       - tail
       - -f
@@ -18,12 +21,11 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_HTTP_PORTS: "8080"
-      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
-      DOTNET_USE_POLLING_FILE_WATCHER: "1"
-      NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
-    image: knightsapi:dev
+      DatabaseSettings__ConnectionString: mongodb://KnightsChallengeDb:27017
+    image: knightsapi
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/bin/Debug/net8.0/KnightsAPI.dll"'
+      com.microsoft.visual-studio.project-name: KnightsAPI
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/KnightsAPI.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
@@ -36,30 +38,8 @@ services:
     tty: true
     volumes:
       - type: bind
-        source: C:\Users\user\Desktop\KnightsChallenge\KnightsAPI
-        target: /app
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\user\Desktop\KnightsChallenge
-        target: /src
-        bind:
-          create_host_path: true
-      - type: bind
         source: C:\Users\user\vsdbg\vs2017u5
         target: /remote_debugger
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\user\.nuget\packages\
-        target: /.nuget/packages
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages
-        target: /.nuget/fallbackpackages
-        read_only: true
         bind:
           create_host_path: true
       - type: bind
@@ -104,6 +84,25 @@ services:
         read_only: true
         bind:
           create_host_path: true
+  knightschallengedb:
+    container_name: KnightsChallengeDb
+    image: mongo
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 27017
+        published: "27017"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: mongo_data
+        target: /data/db
+        volume: {}
 networks:
   default:
-    name: dockercompose1688047108739972838_default
+    name: dockercompose8419547753240455307_default
+volumes:
+  mongo_data:
+    name: dockercompose8419547753240455307_mongo_data

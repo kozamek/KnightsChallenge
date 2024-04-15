@@ -21,10 +21,11 @@ namespace KnightsAPI.Repositories
         public async Task<bool> DeleteKnight(string id)
         {
             FilterDefinition<Knight> filter = Builders<Knight>.Filter.Eq(p => p.Id, id);
+            var update = Builders<Knight>.Update.Set(p => p.Hero, true);
 
-            DeleteResult deleteResult = await _context.Knights.DeleteOneAsync(filter);
+            var updateResult = await _context.Knights.UpdateOneAsync(filter, update);
 
-            return deleteResult.IsAcknowledged && deleteResult.DeletedCount > 0;
+            return updateResult.IsAcknowledged && updateResult.ModifiedCount > 0;
         }
 
         public async Task<IEnumerable<Knight>> GetHeroes()
@@ -41,12 +42,17 @@ namespace KnightsAPI.Repositories
 
         public async Task<IEnumerable<Knight>> GetKnights()
         {
-            return await _context.Knights.Find(p => true).ToListAsync();
+            FilterDefinition<Knight> filter = Builders<Knight>.Filter.Eq(p => p.Hero, false);
+
+            return await _context.Knights.Find(filter).ToListAsync();
         }
 
-        public async Task<bool> UpdateKnight(Knight knight)
+        public async Task<bool> UpdateKnight(string id, string newName)
         {
-            var updateResult = await _context.Knights.ReplaceOneAsync(filter: g => g.Id == knight.Id, replacement: knight);
+            FilterDefinition<Knight> filter = Builders<Knight>.Filter.Eq(p => p.Id, id);
+            var update = Builders<Knight>.Update.Set(p => p.Name, newName);
+
+            var updateResult = await _context.Knights.UpdateOneAsync(filter, update);
 
             return updateResult.IsAcknowledged && updateResult.ModifiedCount > 0;
         }

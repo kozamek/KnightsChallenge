@@ -6,7 +6,7 @@
     </h1>
     <div class="delete-dialog-box">
       <h1 class="delete-dialog-box-text">
-        {{ `Really want to delete this Knight?: ${currentName}?` }}
+        {{ `Really want to delete Knight ${currentName}?` }}
       </h1>
       <div class="delete-dialog-box-buttons">
         <CustomButton
@@ -15,7 +15,7 @@
           :on-click="redirectToHome"
         />
         <CustomButton
-          label="Deletar"
+          label="Delete"
           :on-click="deleteCurrentKnight"
         />
       </div>
@@ -26,7 +26,8 @@
 <script>
 import BackButton from "../components/BackButton.vue";
 import CustomButton from "../components/CustomButton.vue";
-import {useToast} from 'vue-toast-notification';
+import { useToast } from 'vue-toast-notification';
+import { deleteKnight } from "../api/knights.api";
 
 const $toast = useToast();
 
@@ -102,5 +103,6 @@ export default {
   font-size: 54px;
   margin: 16px 0;
   margin-bottom: auto;
+  color: #fff8e5;
 }
 </style>

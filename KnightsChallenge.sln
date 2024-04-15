@@ -8,6 +8,10 @@ EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9DF4C127-EB02-4E6C-A8B7-1D8DD7052B21}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "knightsweb", "KnightsWEB\knightsweb.esproj", "{0570EE62-794E-4478-9F0E-16B0AD6AA3C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DF4C127-EB02-4E6C-A8B7-1D8DD7052B21} = {9DF4C127-EB02-4E6C-A8B7-1D8DD7052B21}
+		{A53BA28F-3345-4375-B522-0DF13E817B7B} = {A53BA28F-3345-4375-B522-0DF13E817B7B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

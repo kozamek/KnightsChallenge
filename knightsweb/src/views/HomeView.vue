@@ -22,6 +22,7 @@
 <script>
 import ItemListComponent from "../components/ItemListComponent.vue";
 import CreateButton from "../components/CreateButton.vue";
+import { getAllKnights,getAllHeroes} from "../api/knights.api";
 
 export default {
   name: "HomeView",
