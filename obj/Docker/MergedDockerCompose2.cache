@@ -1,8 +1,8 @@
-name: dockercompose8419547753240455307
+name: dockercompose16028025608960402014
 services:
   knightsapi:
     build:
-      context: C:\Users\user\Desktop\Workspace\KnightsChallenge
+      context: C:\Users\jkoza\source\repos\KnightsChallenge
       dockerfile: KnightsAPI/Dockerfile
       args:
         BUILD_CONFIGURATION: Release
@@ -38,30 +38,30 @@ services:
     tty: true
     volumes:
       - type: bind
-        source: C:\Users\user\vsdbg\vs2017u5
+        source: C:\Users\jkoza\vsdbg\vs2017u5
         target: /remote_debugger
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/ASP.NET/Https
+        source: C:\Users\jkoza\AppData\Roaming/ASP.NET/Https
         target: /root/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/ASP.NET/Https
+        source: C:\Users\jkoza\AppData\Roaming/ASP.NET/Https
         target: /home/app/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
+        source: C:\Users\jkoza\AppData\Roaming/Microsoft/UserSecrets
         target: /root/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
+        source: C:\Users\jkoza\AppData\Roaming/Microsoft/UserSecrets
         target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
@@ -102,7 +102,7 @@ services:
         volume: {}
 networks:
   default:
-    name: dockercompose8419547753240455307_default
+    name: dockercompose16028025608960402014_default
 volumes:
   mongo_data:
-    name: dockercompose8419547753240455307_mongo_data
+    name: dockercompose16028025608960402014_mongo_data

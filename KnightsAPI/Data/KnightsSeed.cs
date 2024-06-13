@@ -28,14 +28,14 @@ namespace KnightsAPI.Data
                 new Knight()
                 {
                     Id = "1",
-                    Name = "Caique",
-                    Nickname = "CaiqueBurssed",
-                    Birthday = "17/09/1997",
+                    Name = "Zako_War_Lord",
+                    Nickname = "The__GOD",
+                    Birthday = "12/09/1996",
                     Weapons = new List<Weapon>()
                     {
                         new Weapon()
                         {
-                            Name = "sword",
+                            Name = "Spear",
                             Mod = 3,
                             Attr = "strength",
                             Equipped = true

@@ -1,7 +1,7 @@
 <template>
   <div class="home-container">
     <h1 class="home-main-title">
-      Knights List
+      Lista de Herois
     </h1>
     <div class="home-main-controlls-container">
       <CreateButton />
@@ -10,7 +10,7 @@
         v-model="showHeroes"
         type="checkbox"
       />
-      <label for="show-heroes-checkbox">Show Heroes</label>
+      <label for="show-heroes-checkbox">Apresente os Cavaleiros</label>
     </div>
     <ItemListComponent
       v-if="currentKnights"
@@ -78,7 +78,7 @@ export default {
 .home-main-title {
   font-size: 54px;
   margin: 16px 0;
-  color: #fff8e5
+  color: #858177
 }
 
 .home-main-controlls-container {

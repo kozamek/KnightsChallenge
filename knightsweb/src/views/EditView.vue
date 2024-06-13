@@ -2,7 +2,7 @@
   <div class="update-main-container">
     <BackButton />
     <h1 class="update-main-title">
-      Update Knight
+      Atualizar Cavaleiro
     </h1>
     <div class="update-dialog-box">
       <h1 class="update-dialog-box-text">

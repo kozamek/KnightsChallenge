@@ -4,7 +4,7 @@
                 @mouseover="showTooltip"
                 @mouseleave="hideTooltip">
             <font-awesome-icon icon="plus" />
-            <p>Create Knight</p>
+            <p>Criar Cavaleiro</p>
         </button>
     </router-link>
 </template>

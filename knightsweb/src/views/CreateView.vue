@@ -2,26 +2,26 @@
   <div class="create-main-container">
     <BackButton />
     <h1 class="create-main-title">
-      Create Knight
+      Criar Cavaleiro
     </h1>
     <div class="create-box-container">
       <div class="create-list-container">
         <h1 class="create-list-title">
-          Create a Knight
+          Criar Cavaleiro
         </h1>
         <ul v-if="knightInfo">
           <li>
-            <strong>Name:</strong>
+            <strong>Nome:</strong>
             <input
               v-model="knightInfo.name"
               placeholder="Type Knight name"
             />
           </li>
           <li>
-            <strong>Attributes:</strong>
+            <strong>Atributos:</strong>
             <ul v-if="knightInfo.attributes">
               <li>
-                <strong>Strength:</strong>
+                <strong>Força:</strong>
                 <input
                   v-model="knightInfo.attributes.strength"
                   placeholder="Type Knight strength"
@@ -29,7 +29,7 @@
                 />
               </li>
               <li>
-                <strong>Dexterity:</strong>
+                <strong>Destreza:</strong>
                 <input
                   v-model="knightInfo.attributes.dexterity"
                   placeholder="Type Knight dexterity"
@@ -37,7 +37,7 @@
                 />
               </li>
               <li>
-                <strong>Constitution:</strong>
+                <strong>Constituição:</strong>
                 <input
                   v-model="knightInfo.attributes.constitution"
                   placeholder="Type Knight constitution"
@@ -45,7 +45,7 @@
                 />
               </li>
               <li>
-                <strong>Intelligence:</strong>
+                <strong>Inteligência:</strong>
                 <input
                   v-model="knightInfo.attributes.intelligence"
                   placeholder="Type Knight intelligence"
@@ -53,7 +53,7 @@
                 />
               </li>
               <li>
-                <strong>Wisdom:</strong>
+                <strong>Sabedoria:</strong>
                 <input
                   v-model="knightInfo.attributes.wisdom"
                   placeholder="Type Knight wisdom"
@@ -61,7 +61,7 @@
                 />
               </li>
               <li>
-                <strong>Charisma:</strong>
+                <strong>Carisma:</strong>
                 <input
                   v-model="knightInfo.attributes.charisma"
                   placeholder="Type Knight charisma"
@@ -71,14 +71,14 @@
             </ul>
           </li>
           <li>
-            <strong>Nickname:</strong>
+            <strong>Apelido:</strong>
             <input
               v-model="knightInfo.nickname"
               placeholder="Type Knight nickname"
             />
           </li>
           <li>
-            <strong>Birthday:</strong>
+            <strong>Aniversario:</strong>
             <input
               id="dateInput"
               v-model="knightInfo.birthday"
@@ -87,13 +87,13 @@
             />
           </li>
           <li>
-            <strong>Key Attribute:</strong>
+            <strong>Atributo Chave:</strong>
             <select
               id="attrSelect"
               v-model="knightInfo.keyAttribute"
             >
               <option value="">
-                -- Select an attribute --
+                -- Selecione um Atributo --
               </option>
               <option
                 v-for="item in attrOptions"
@@ -106,25 +106,25 @@
           </li>
         </ul>
         <CustomButton
-          label="Save Knight"
+          label="Salvar Cavaleiro"
           :on-click="createNewKnight"
         />
       </div>
       <div class="create-weapons-container">
         <h1 class="create-weapons-title">
-          Add Weapons
+          Adicionar Arma
         </h1>
         <div class="create-weapons-input-container">
           <ul>
             <li>
-              <strong>Name:</strong>
+              <strong>Nome:</strong>
               <input
                 v-model="currentWeapon.name"
                 placeholder="Weapon name"
               />
             </li>
             <li>
-              <strong>Mod:</strong>
+              <strong>Modo:</strong>
               <input
                 v-model="currentWeapon.mod"
                 placeholder="Mod"
@@ -132,7 +132,7 @@
               />
             </li>
             <li>
-              <strong>Attr:</strong>
+              <strong>Ataque:</strong>
               <select
                 id="attrSelectWeapon"
                 v-model="currentWeapon.attr"
@@ -159,13 +159,13 @@
             </li>
           </ul>
           <CustomButton
-            label="Add Weapon"
+            label="Adicionar Arma"
             :on-click="handleAddWeapon"
           />
         </div>
         <div class="create-weapons-list-container">
           <h1 class="create-weapons-title">
-            List of Weapons
+            Lista de armas
           </h1>
           <ul v-if="knightInfo.weapons && knightInfo.weapons.length > 0">
             <WeaponCard

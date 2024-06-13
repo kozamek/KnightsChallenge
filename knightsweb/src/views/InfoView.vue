@@ -7,44 +7,44 @@
     <div class="info-box-container">
       <div class="info-list-container">
         <h1 class="info-list-title">
-          Knights Info
+          Informação dos Cavaleiros
         </h1>
         <ul v-if="knightInfo">
           <li>
-            <strong>Name:</strong>
+            <strong>Nome:</strong>
             <p>{{ knightInfo.name }}</p>
           </li>
           <li>
-            <strong>Attributes:</strong>
+            <strong>Atributo:</strong>
             <ul
               v-if="knightInfo.attributes"
               class="infos-list-knight-attribute"
             >
-              <li>Strength : {{ knightInfo.attributes.strength }}</li>
-              <li>Dexterity : {{ knightInfo.attributes.dexterity }}</li>
-              <li>Constitution: {{ knightInfo.attributes.constitution }}</li>
-              <li>Intelligence: {{ knightInfo.attributes.intelligence }}</li>
-              <li>Wisdom: {{ knightInfo.attributes.wisdom }}</li>
-              <li>Charisma: {{ knightInfo.attributes.charisma }}</li>
+              <li>Força : {{ knightInfo.attributes.strength }}</li>
+              <li>Dextreza : {{ knightInfo.attributes.dexterity }}</li>
+              <li>Constituição: {{ knightInfo.attributes.constitution }}</li>
+              <li>Inteligência: {{ knightInfo.attributes.intelligence }}</li>
+              <li>Sabedoria: {{ knightInfo.attributes.wisdom }}</li>
+              <li>Carisma: {{ knightInfo.attributes.charisma }}</li>
             </ul>
           </li>
           <li>
-            <strong>Nickname:</strong>
+            <strong>Apelido:</strong>
             <p>{{ knightInfo.nickname }}</p>
           </li>
           <li>
-            <strong>Birthday:</strong>
+            <strong>Aniversário:</strong>
             <p>{{ knightInfo.birthday }}</p>
           </li>
           <li>
-            <strong>KeyAttribute:</strong>
+            <strong>Atributo Chave:</strong>
             <p>{{ translateAttribute(knightInfo.keyAttribute) }}</p>
           </li>
         </ul>
       </div>
       <div class="info-weapons-container">
         <h1 class="info-weapons-title">
-          Weapons List
+          Lista de Armas
         </h1>
         <ul
           v-if="knightInfo.weapons && knightInfo.weapons.length > 0"

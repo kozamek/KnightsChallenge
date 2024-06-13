@@ -3,13 +3,13 @@
     <ul class="item-list-ul">
         <li key="header"
             class="item-list-header">
-            <div>Name</div>
-            <div>Age</div>
-            <div>Weapons</div>
-            <div>Attr</div>
-            <div>Atack</div>
+            <div>Nome</div>
+            <div>Idade</div>
+            <div>Arma</div>
+            <div>Atributo</div>
+            <div>Ataque</div>
             <div>Exp</div>
-            <div>Actions</div>
+            <div>Ação</div>
         </li>
         <li v-for="item in itemList"
             :key="item.name">
@@ -82,12 +82,12 @@ export default {
       }
       return age;
     },
-    calculateXPValue(birthday) {
+    calculateXPValue(birthday) { //essa logica deveria estar no backend
       const age = this.calculateAge(birthday);
       const xp = Math.floor((age - 7) * Math.pow(22, 1.45));
       return xp > 0 ? xp : 0;
     },
-    getModFromAtributte(value) {
+    getModFromAtributte(value) { //essa logica deveria estar no backend
       const modRanges = {
         8: -2,
         10: -1,

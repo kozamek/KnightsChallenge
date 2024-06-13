@@ -1,8 +1,8 @@
-name: dockercompose8419547753240455307
+name: dockercompose1804645615815329246
 services:
   knightsapi:
     build:
-      context: C:\Users\user\Desktop\Workspace\KnightsChallenge
+      context: C:\Users\jkoza\Source\Repos\KnightsChallenge
       dockerfile: KnightsAPI/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
@@ -41,22 +41,22 @@ services:
     tty: true
     volumes:
       - type: bind
-        source: C:\Users\user\Desktop\Workspace\KnightsChallenge\KnightsAPI
+        source: C:\Users\jkoza\Source\Repos\KnightsChallenge\KnightsAPI
         target: /app
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\Desktop\Workspace\KnightsChallenge
+        source: C:\Users\jkoza\Source\Repos\KnightsChallenge
         target: /src
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\vsdbg\vs2017u5
+        source: C:\Users\jkoza\vsdbg\vs2017u5
         target: /remote_debugger
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\.nuget\packages\
+        source: C:\Users\jkoza\.nuget\packages\
         target: /.nuget/packages
         read_only: true
         bind:
@@ -68,25 +68,25 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/ASP.NET/Https
+        source: C:\Users\jkoza\AppData\Roaming/ASP.NET/Https
         target: /root/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/ASP.NET/Https
+        source: C:\Users\jkoza\AppData\Roaming/ASP.NET/Https
         target: /home/app/.aspnet/https
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
+        source: C:\Users\jkoza\AppData\Roaming/Microsoft/UserSecrets
         target: /root/.microsoft/usersecrets
         read_only: true
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\user\AppData\Roaming/Microsoft/UserSecrets
+        source: C:\Users\jkoza\AppData\Roaming/Microsoft/UserSecrets
         target: /home/app/.microsoft/usersecrets
         read_only: true
         bind:
@@ -127,7 +127,7 @@ services:
         volume: {}
 networks:
   default:
-    name: dockercompose8419547753240455307_default
+    name: dockercompose1804645615815329246_default
 volumes:
   mongo_data:
-    name: dockercompose8419547753240455307_mongo_data
+    name: dockercompose1804645615815329246_mongo_data

@@ -2,7 +2,7 @@
   <div class="delete-main-container">
     <BackButton />
     <h1 class="delete-main-title">
-      Delete a Knight
+      Deletar Cavaleiro
     </h1>
     <div class="delete-dialog-box">
       <h1 class="delete-dialog-box-text">

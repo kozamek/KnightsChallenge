@@ -1,8 +1,8 @@
-name: dockercompose8419547753240455307
+name: dockercompose1804645615815329246
 services:
   knightsapi:
     build:
-      context: C:\Users\user\Desktop\Workspace\KnightsChallenge
+      context: C:\Users\jkoza\Source\Repos\KnightsChallenge
       dockerfile: KnightsAPI/Dockerfile
     container_name: KnightsAPI
     depends_on:
@@ -38,7 +38,7 @@ services:
         volume: {}
 networks:
   default:
-    name: dockercompose8419547753240455307_default
+    name: dockercompose1804645615815329246_default
 volumes:
   mongo_data:
-    name: dockercompose8419547753240455307_mongo_data
+    name: dockercompose1804645615815329246_mongo_data
