@@ -1,7 +1,7 @@
-## 📋 Sobre 
+## Sobre 
 <p> O desafio Knights visa a construção um sistema cadastro de heróis.</p>
 
-### 🛠 Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 - [Vue.js]([https://nextjs.org/](https://vuejs.org)) - Ambiente de execução front-end
 
@@ -11,15 +11,15 @@
 
 - [Docker]([https://tailwindcss.com/docs/installation](https://www.docker.com)) - Serviços em Containers
 
-### 🖥️ Rotas do Back End
+Rotas da API
+GetKnights
+GetKnight
+CreateKnight
+UpdateKnight
+DeleteKnight
 
-<img width="800" alt="image" height="400" src=RotasBackEnd.PNG/>
- 
-### 🖥️ Funcionamento do Front End
- 
-<img width="800" alt="image" height="400" src=Video.gif/>
-
-### 🌈⃤  Requisitos para funcionamento
+### Requisitos para funcionamento
  - Docker Desktop
  - Visual Studio 2022
+ - Visual Studio Code (Tambem funciona porem melhor usado para Frontend)
  - Clone o repositório, abra-o pelo Visual Studio e execute a aplicação.
